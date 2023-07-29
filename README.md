@@ -3,11 +3,12 @@
 AutoTimeSeries Predictor is a web-based application, built with Streamlit and Python, that provides tools for conducting Exploratory Data Analysis (EDA), fetching live stock data and performing time series predictions on the uploaded or fetched datasets.
 
 ## Features
-Upload: This feature allows the user to upload a dataset in CSV format or fetch live stock data using the stock symbol. The fetched/loaded data is displayed in a tabular format.
 
-Analytics: This feature provides automated Exploratory Data Analysis (EDA) on the uploaded dataset or live fetched stock data. The user can choose to visualize a particular numeric column over time. Additionally, the user gets a comprehensive report using the YData's Profiling package which gives insights about the dataset.
+* Upload: This feature allows the user to upload a dataset in CSV format or fetch live stock data using the stock symbol. The fetched/loaded data is displayed in a tabular format.
 
-Predict: This feature allows the user to perform time series forecasting on the chosen numeric column. The user can define the number of days to forecast. The output is displayed in both a table and a line graph.
+* Analytics: This feature provides automated Exploratory Data Analysis (EDA) on the uploaded dataset or live fetched stock data. The user can choose to visualize a particular numeric column over time. Additionally, the user gets a comprehensive report using the YData's Profiling package which gives insights about the dataset.
+
+* Predict: This feature allows the user to perform time series forecasting on the chosen numeric column. The user can define the number of days to forecast. The output is displayed in both a table and a line graph.
 
 ## Getting Started
 

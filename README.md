@@ -35,12 +35,13 @@ Navigate to the directory where the app.py is located and run the following comm
 streamlit run main.py
 ```
 ### Usage
-After running the script, a new window will open in your default web browser with the Streamlit application interface.
 
-There is a sidebar with three choices: Upload, Analytics and Predict.
+1. After running the script, a new window will open in your default web browser with the Streamlit application interface.
 
-Upload: You can either upload your own TimeSeries dataset in CSV format or you can fetch live stock data by providing the stock symbol (e.g., AAPL for Apple Inc.) and a date range.
+2. There is a sidebar with three choices: Upload, Analytics and Predict.
 
-Analytics: Here, you can select a numeric column to plot over time. Also, a comprehensive automated EDA report is displayed.
+3. Upload: You can either upload your own TimeSeries dataset in CSV format or you can fetch live stock data by providing the stock symbol (e.g., AAPL for Apple Inc.) and a date range.
 
-Predict: Select a numeric column for forecasting, enter the number of days to forecast and click on Generate Forecast to get the prediction for the selected number of days.
+4. Analytics: Here, you can select a numeric column to plot over time. Also, a comprehensive automated EDA report is displayed.
+
+5. Predict: Select a numeric column for forecasting, enter the number of days to forecast and click on Generate Forecast to get the prediction for the selected number of days.

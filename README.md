@@ -25,14 +25,12 @@ streamlit_pandas_profiling (for integrating pandas profiling with streamlit)
 To install the required packages, run the following command:
 
 ``` bash
-Copy code
 pip install streamlit pandas prophet plotly yfinance ydata_profiling streamlit_pandas_profiling
 ```
 ### Running the application
 Navigate to the directory where the app.py is located and run the following command:
 
 ``` bash
-Copy code
 streamlit run main.py
 ```
 ### Usage
